@@ -1,0 +1,416 @@
+
+@import url('https://fonts;googleapis;com/css2?family=Poppins:wght@(500&display=swap');
+*{
+    margin:0% ;
+    padding: 0%;
+    font-family:'Poppins',sans-serif ;
+    box-sizing:border-box ;
+    outline:none ;
+}
+:root{
+    --prime:#94cde9;
+
+}
+body{
+    background-color: #d0d8de;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    position: fixed;
+   padding: 10px ;
+    background-color:rgb(238, 205, 233) ;
+    justify-content: space-between;
+  
+   
+}
+.logo{
+    font-size: 2.8em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo B{
+    color:var(--prime);
+}
+ol{
+    display: flex;
+    margin: auto 0;
+}
+ol li{
+    list-style: none;
+    margin-right: 20px;
+}
+ol li a{
+    font: size 20px; ;
+    font-weight: 500;
+    text-decoration:none ;
+    text-transform:capitalize ;
+    color: rgb(55, 160, 208)
+}
+ol li:hover a{
+    color: var(--prime);
+}
+.btn{
+    display: inline-block;
+    background:#ff523B ;
+    color:fff;
+    padding:8px 30px ;
+    margin: 30px 250px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    transition:background 0.5s;
+
+}
+.btn:hover{
+    background: #16d3dd;
+ }
+
+.one{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.row{
+    display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+.row  h1{
+  color: white;
+ }
+   .row  p{
+    color: white;
+   }
+.col-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+.col-2 img{
+    border-radius: 20px;
+}
+.col-2 h1{
+   color:rgb(238, 117, 206);
+   text-decoration: dotted;
+   text-align: center;
+}
+.col-2 p{
+    text-align: center;
+}
+.card-groupe{
+    display: flex;
+   justify-content:space-between ;
+
+}
+.card-groupe div:nth-child(1)
+{
+    background-color:black;
+}
+.card-groupe div:nth-child(2)
+{
+    background-color:black;
+}
+.card-groupe div:nth-child(3)
+{
+    background-color:black;
+}
+.card{
+    width: 25% ;
+    padding: 2VW 2vw;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    color: white;
+    border-radius: 15px;
+}
+#DEUX{
+    display: FLEX;
+    justify-content: center;
+    color:rosybrown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+#TROIS{
+    display: FLEX;
+    justify-content: center;
+    color: rosybrown;
+}
+
+
+   
+  .PRICNG{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   border-radius: 15px;
+   color: black;
+   padding:8px 30px ;
+     margin: 30px 250px;
+  }
+.card h3{
+  color: aqua;
+}
+ 
+  .card-groupe1{
+    display: flex;
+   justify-content:space-between ;
+
+}
+.card1 
+{
+    background-color:white;
+
+}
+.card2 
+{
+    background-color:white;
+
+}
+.card3
+{
+    background-color:white;
+
+}
+.card1{
+    width: 25% ;
+    padding: 2VW 2vw;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    color: black;
+    border-radius: 15px;
+}
+.card2{
+    width: 25% ;
+    padding: 2VW 2vw;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    color: black;
+    border-radius: 15px;
+}
+.card3{
+    width: 25% ;
+    padding: 2VW 2vw;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    color: black;
+    border-radius: 15px;
+}
+.circle2 {
+
+    height: 150px;
+    width: 150px;
+    background-color:rgb(0, 162, 255);
+    border-radius: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+  }
+  .BONTON{
+    background-color:rgb(0, 162, 255);
+    border-radius: 2px;
+    padding: 1VW 1vw;
+    margin: 5px 5px;
+    cursor: pointer;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+  }
+  .name{
+    display: flex;
+    gap: 5vw;
+
+  }
+  #cantact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:8px 30px ;
+     margin: 30px 250px;
+     color: rosybrown;
+     
+  }
+  .BONTON1{
+    background-color:rgb(149, 188, 211);
+    border-radius: 2px;
+    padding: 1VW 1vw;
+    margin: 25px 25px;
+    gap: 5VW;
+    cursor: pointer;
+  }
+  .MESSAGE{
+    padding: 2VW 2vw;
+    margin: 25px 25px;
+    gap: 5VW;
+  }
+  .info{
+   display: flex;
+    padding: 2VW 2vw;
+    margin: 25px 25px;
+  }
+  .order{
+    padding: 3VW 1vw;
+    margin: 25px 25px;
+    gap: 5VW;
+    display: flex;
+    justify-content: center;
+  }
+  .INFO{
+    
+    gap: 5VW;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-rule: white;
+  
+  }
+      
+  .footer{ 
+    text-align: center;
+    text-decoration: dotted;
+    font-size: medium;
+    text-transform: capitalize;
+    color:white;
+    
+  }
+  .order{
+    color: #00ff34;
+  }
+
+
+
+
+
+
+ 
+
+.navbar h3 {
+    margin-left: 30px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:greenyellow;
+}
+
+
+.navbar button {
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+
+.figure{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content:space-between;
+    margin-left: 30px;
+    margin-top: 50px;
+    background:whitesmoke;
+}
+
+
+  .ilike {
+      background-color: red;
+
+    }
+
+
+
+.figure>.image{
+    border: groove;
+    padding: 10px;
+    
+ 
+ }
+
+.legende{
+    display:flex;
+    flex-direction: column;
+}
+
+.legende>h3,h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.compteur {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.compteur>.inputqte {
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.like{
+ 
+    margin-left: 250px;
+    
+}
+
+.figure>.image{
+    border: groove;
+    padding: 10px;
+    
+}
+
+
+.legende{
+    display:flex;
+    flex-direction: column;
+}
+
+.legende>h3,h4 {
+    display: flex;
+    justify-content: center;
+}
+.figure>.image{
+  border: groove;
+ padding: 10px;
+  
+}
+
+.legende>h3,h4 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.afficheur {
+  display: flex;
+  margin-top: 35px;
+  justify-content:flex-end;
+  margin-right: 45px;
+  color: rgb(247, 0, 255);
+}
+
+
+.ROBE{
+  color: rgb(242, 181, 224);
+}
+
+
+
